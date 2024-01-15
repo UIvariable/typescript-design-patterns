@@ -1,0 +1,9 @@
+Running commands:
+yarn init -y
+yarn add typescript ts-node -d
+npx tsc --init
+yarn add @types/node -D
+npx ts-node factory-class-test.ts
+$env:NODE_ENV="production" ; npx ts-node factory-class-test.ts
+$env:NODE_ENV="development" ; npx ts-node factory-functions-test.ts
+$env:NODE_ENV="production" ; npx ts-node factory-functions-test.ts
