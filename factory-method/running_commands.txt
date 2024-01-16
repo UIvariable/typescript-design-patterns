@@ -1,0 +1,7 @@
+Running commands:
+yarn init -y
+yarn add typescript ts-node -d
+npx tsc --init
+yarn add @types/node -D
+npx ts-node dir-scraper-class.ts
+npx ts-node dir-scraper-functions.ts
